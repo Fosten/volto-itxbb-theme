@@ -1,0 +1,10 @@
+.ui.secondary.segment {
+	background: orange;
+}
+.ui.breadcrumb {
+	color: #267326;
+}
+
+.ui header-wrapper {
+	color: green;
+}

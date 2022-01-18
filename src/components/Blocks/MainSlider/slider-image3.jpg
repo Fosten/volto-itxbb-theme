@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>From tower looking down</title>
+  <style type="text/css" media="screen">
+
+    body {
+      font-family: Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      padding: 0;
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+      text-align: center;
+      padding: 12px;
+    }
+
+    a:hover {
+      text-decoration:underline;
+    }
+
+    a span {
+      display: block;
+      line-height: 1.5em;
+      padding: 12px;
+    }
+
+    img {
+      border: 0;
+      display: block;
+      margin: 0 auto;
+      max-width: 100%;
+      height: auto;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div id="content-core">
+    
+    <a href="http://itxtowers.com:8081/Plone">
+      <img src="http://itxtowers.com:8081/Plone/gallery/2569077021755870542.jpg/@@images/image.jpeg" alt="From tower looking down" title="From tower looking down" height="1258" width="943" />
+      <span>Home</span>
+    </a>
+  </div>
+</body>
+
+</html>

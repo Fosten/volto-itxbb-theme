@@ -1,0 +1,28 @@
+{
+  "name": "@Fosten/volto-itxbb-theme",
+  "version": "0.1.0",
+  "description": "volto-itxbb-theme: Volto add-on",
+  "main": "src/index.js",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
+  },
+  "dependencies": {
+    "@eeacms/volto-columns-block": "4.4.13",
+    "@kitconcept/volto-blocks-grid": "2.4.1",
+    "@plone/scripts": "*",
+    "react-slick": "0.28.1",
+    "slick-carousel": "1.8.1",
+    "volto-dropdownmenu": "2.3.0",
+    "volto-form-block": "2.1.2"
+  },
+  "devDependencies": {
+    "mrs-developer": "1.6.1"
+  }
+}

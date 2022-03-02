@@ -1,0 +1,200 @@
+/* My stuff */
+body {background:#007bb1 !important;}
+.breadcrumbs {padding:0.2em !important;}
+.address a, .phone a, .email a {color:white; border-bottom:1px solid white;}
+.listing-item img {border-radius:20px; padding-bottom:1em;}
+.front-page-photo-buttons img {height:300px;}
+.navigation .ui.secondary.pointing.menu .item {color: black !important; margin: 0 1em 0 0; padding-right: .7em; padding-left: .7em;}
+.hero-body {background:transparent !important;}
+.image-gallery-slide .image-gallery-image {height:400px;}
+.documentFirstHeading, .documentDescription {display:none;}
+.ui.secondary.segment {font-size:1.1em; background:transparent;}
+.blockhero her-body {background-color: none !important;}
+.i4ewOd-pzNkMb-haAclf {display: none !important;}
+.ui.breadcrumb {color:#007bb1;}
+.ui.basic.segment.header-wrapper {width:100%; margin-left:auto; margin-right:auto;}
+.logo img { height:12em;}
+.navigation .ui.secondary.pointing.menu .item { color: #007bb1;}
+.ui.inverted.grey.segment {
+background-color: #007bb1 !important;
+line-height:2em;
+font-size:1.2em;
+display:flex;
+align-items:center;
+}
+.address {width:33%; float:left;}
+.email, .phone {width:33%; float:right;}
+.mycontainer { display:flex;}
+.myfixed { width:50%;}
+.myflex { vertical-align:middle; flex-grow:1;}
+.slick-dots {display:none !important;}
+
+/* Slick stuff */
+.ui.basic.segment.content-area {padding: 0; margin: 0;}
+
+.tile.view.mainslider .slick-slide.slick-active {z-index:2;}
+.tile.view.mainslider {
+.slick-track{height:400px;}
+  .slick-slide {
+    z-index:1;
+    height:400px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+
+    h1 {
+      margin: 0 0 20px 0;
+      font-size: 32px;
+      font-weight: 700;
+      text-align: center;
+    }
+
+    h3 {
+      margin: 0 0 20px 0;
+      font-size: 32px;
+      font-weight: 300;
+    }
+
+    a {
+      padding: 10px 20px;
+      background-color: #00bef1;
+      border-radius: 20px;
+      color: #fff;
+    }
+  }
+
+  .slick-arrow {
+    width: initial;
+    height: initial;
+    position:absolute;
+    top:150px;
+    color:transparent;
+    z-index:2;
+  }
+
+  .slick-prev {
+    z-index: 10;
+    left: -18px;
+    background: transparent !important;
+
+    &::before {
+      display: none;
+    }
+  }
+
+  .slick-next {
+    right: -32px;
+    background: transparent !important;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+body.has-toolbar .tile.view.mainslider .slick-prev {
+  left: calc(-18px + 80px);
+}
+
+
+body.has-toolbar .tile.view.mainslider .slick-next {
+  right: calc(80px - 38px);
+}
+
+.slick-slider {
+  // This fixes homepage slider problem in ff (prevents from totally disappearing)
+  height:400px;
+  width: 100vw;
+
+  img {
+    width: 100%;
+  }
+}
+
+// This is the width hack
+
+body:not(.has-toolbar):not(.has-sidebar):not(.has-toolbar-collapsed):not(.has-sidebar-collapsed)
+
+.ui.wrapper
+
+> .full-width,
+
+body.has-toolbar:not(.has-sidebar):not(.has-sidebar-collapsed)
+
+.ui.wrapper
+
+> .full-width,
+
+body.has-toolbar-collapsed:not(.has-sidebar):not(.has-sidebar-collapsed)
+
+.ui.wrapper
+
+> .full-width {
+
+  position: relative;
+
+  right: 50%;
+
+  left: 50%;
+
+  width: 99.5vw !important;
+
+  max-width: initial !important;
+
+  margin-right: -50vw !important;
+
+  margin-left: -50vw !important;
+
+}
+
+
+/*Border Radius - Commented out
+.ui.basic.segment.header-wrapper {
+boder-top: thin solid white;
+-webkit-border-top-left-radius: 50px;
+-webkit-border-top-right-radius: 50px;
+-moz-border-radius-topleft: 50px;
+-moz-border-radius-topright: 50px;
+border-top-left-radius: 50px;
+border-top-right-radius: 50px;
+}
+*/
+
+/* Gradient */
+#main, .ui.basic.segment.content-area {
+background: #feffff; /* Old browsers */
+background: -moz-linear-gradient(top, #feffff 0%, #ddf1f9 60%, #a7caf0 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #feffff 0%,#ddf1f9 60%, #a7caf0 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #feffff 0%,#ddf1f9 60%, #a7caf0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#feffff', endColorstr='#a7caf0',GradientType=0 ); /* IE6-9 */
+}
+/* Reverse Gradient */
+
+.ui.basic.segment.header-wrapper {
+background: #feffff; /* Old browsers */ 
+background: -moz-linear-gradient(top, #a7caf0 0%, #ddf1f9 60%, #feffff 100%); /* FF3.6-15 */ 
+background: -webkit-linear-gradient(top, #a7caf0 0%,#ddf1f9 60%,#feffff 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #a7caf0 0%,#ddf1f9 60%,#feffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7caf0', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
+}
+
+/*Mobile*/
+@media only screen and (max-width: 600px) {
+  .ui.inverted.grey.segment {display:block;}
+  .address, .phone, .email {width:100%;}
+  .front-page-photo-buttons img {
+    width:300px;
+    height:unset;
+  }
+}
+
+#page-document a {padding-right:.3em; padding-left:.3em; border-bottom: 1px solid black;}
+#page-document a:hover, #page-document a:hover p {background:#006b96; color:white !important; border-radius:1em;}
+.navigation .ui.secondary.pointing.menu a.item:hover {background:#006b96 !important; color:white !important; border-radius:1em; }
+#footer a:hover {background:white; color:#006b96 !important; border: 1px solid black; border-radius:1em; padding:1em;}
+.tile.view.mainslider .slick-slide a:hover {padding: 10px 20px !important;}
+.tile.view.mainslider .slick-slide a {padding: 10px 20px !important;}
+
+.inverted.segment a.item {text-decoration:none; border-bottom:1px solid white;}

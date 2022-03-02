@@ -1,3 +1,6 @@
+@import (less) "~slick-carousel/slick/slick.css";
+@import (less) "~slick-carousel/slick/slick-theme.css";
+
 /* My stuff */
 body {background:#007bb1 !important;}
 .breadcrumbs {padding:0.2em !important;}

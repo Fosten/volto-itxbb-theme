@@ -13,13 +13,17 @@
   "scripts": {
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon"
   },
+  "addons": [
+    "@eeacms/volto-columns-block",
+    "@kitconcept/volto-blocks-grid",
+    "volto-form-block"
+  ],
   "dependencies": {
     "@eeacms/volto-columns-block": "4.4.13",
     "@kitconcept/volto-blocks-grid": "2.4.1",
     "@plone/scripts": "*",
     "react-slick": "0.28.1",
     "slick-carousel": "1.8.1",
-    "volto-dropdownmenu": "2.3.0",
     "volto-form-block": "2.1.2"
   },
   "devDependencies": {

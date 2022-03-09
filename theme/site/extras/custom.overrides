@@ -11,7 +11,7 @@ body {background:#007bb1 !important;}
 .hero-body {background:transparent !important;}
 .image-gallery-slide .image-gallery-image {height:400px;}
 .documentFirstHeading, .documentDescription {display:none;}
-.ui.secondary.segment {font-size:1.1em; background:transparent;}
+.ui.secondary.segment {font-size:1.1em; background: #ffc87c;}
 .blockhero her-body {background-color: none !important;}
 .i4ewOd-pzNkMb-haAclf {display: none !important;}
 .ui.breadcrumb {color:#007bb1;}
@@ -19,7 +19,7 @@ body {background:#007bb1 !important;}
 .logo img { height:12em;}
 .navigation .ui.secondary.pointing.menu .item { color: #007bb1;}
 .ui.inverted.grey.segment {
-background-color: #007bb1 !important;
+background-color: #679267 !important;
 line-height:2em;
 font-size:1.2em;
 display:flex;
@@ -193,11 +193,40 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7caf0', end
   }
 }
 
-#page-document a {padding-right:.3em; padding-left:.3em; border-bottom: 1px solid black;}
+#page-document {padding-right:1em; padding-left:1em; background: white; border-left: 1px solid lightgray; border-right: 1px solid lightgray;}
+#page-document a {border-bottom: 1px solid black; display: inline-block;}
 #page-document a:hover, #page-document a:hover p {background:#006b96; color:white !important; border-radius:1em;}
 .navigation .ui.secondary.pointing.menu a.item:hover {background:#006b96 !important; color:white !important; border-radius:1em; }
-#footer a:hover {background:white; color:#006b96 !important; border: 1px solid black; border-radius:1em; padding:1em;}
+#footer a {display:inline-block; padding: 1em;}
+#footer a:hover {background:white; color:#006b96 !important; border-radius:1em;}
 .tile.view.mainslider .slick-slide a:hover {padding: 10px 20px !important;}
 .tile.view.mainslider .slick-slide a {padding: 10px 20px !important;}
 
 .inverted.segment a.item {text-decoration:none; border-bottom:1px solid white;}
+
+/* Searchbox */
+.searchbox.field {
+display: flex;
+padding-left: 1em;
+border-left: 1px solid #b8c6c8;
+margin-top: -4em !important;
+}
+.searbox.field button {
+padding: 0;
+border: 0;
+background: transparent;
+color: #007eb1;
+cursor: pointer;
+text-align: initial;
+}
+.searchbox.field input{
+width:106px !important;
+height:40px !important;
+}
+.ui.menu {
+margin-top:-90px;
+}
+
+.myicons {background: #f4f0ec; border: thick solid white; border-radius:1em;}
+.myleadimage {width:102.6%; margin-left:-1em;}
+.myleadimage img {object-fit: cover; width:100%; height:200px;}

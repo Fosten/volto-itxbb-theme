@@ -6,7 +6,7 @@ body {background:#007bb1 !important;}
 .breadcrumbs {padding:0.2em !important;}
 .address a, .phone a, .email a {color:white; border-bottom:1px solid white;}
 .listing-item img {border-radius:20px; padding-bottom:1em;}
-.listing-item, listing-item a {display: flex !important;}
+.listing-item, .listing-item a {display: flex !important;}
 .front-page-photo-buttons img {height:300px;}
 .navigation .ui.secondary.pointing.menu .item {color: black !important; margin: 0 1em 0 0; padding-right: .7em; padding-left: .7em;}
 .hero-body {background:transparent !important;}

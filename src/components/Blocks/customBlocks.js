@@ -1,4 +1,4 @@
-import MainSliderViewBlock from '@Fosten/volto-itxbb-theme/compontents/Blocks/MainSlider/View';
+import MainSliderViewBlock from '@Fosten/volto-itxbb-theme/components/Blocks/MainSlider/View';
 import MainSliderEditBlock from '@Fosten/volto-itxbb-theme/components/Blocks/MainSlider/Edit';
 import sliderSVG from '@plone/volto/icons/slider.svg';
 

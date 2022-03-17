@@ -4,7 +4,6 @@
 /* My stuff */
 body {background:#007bb1 !important;}
 .breadcrumbs {padding:0.2em !important;}
-.address a, .phone a, .email a {color:white; border-bottom:1px solid white;}
 .listing-item img {border-radius:20px; padding-bottom:1em;}
 .listing-item, .listing-item a {display: flex !important;}
 .front-page-photo-buttons img {height:300px;}
@@ -26,8 +25,20 @@ font-size:1.2em;
 display:flex;
 align-items:center;
 }
-.address {width:33%; float:left;}
-.email, .phone {width:33%; float:right;}
+#footer {font-size: 10px;}
+#footer h2 {margin: 0;}
+#footer a {display:inline-block; padding: .25em; color:white; border-bottom:none;}
+#footer a:hover {background:white; color:#006b96 !important; border-radius:1em;}
+#footer .ui.segment {margin:0; padding:0;}
+.footersitemap {display:flex; width:100%; border-bottom: thin solid white; padding-bottom:1em;}
+.footersitemap ul {list-style-type:none; padding-left:0; margin:0;}
+.footercol1 {width:25%;}
+.footercol2, .footercol3, .footercol4 {flex-grow:1;}
+.footerbar {display: flex; width:100%; padding-top:.5em;}
+.companyinfo {display: flex; width:100%;}
+.address {width:25%;}
+.phone, .email, .social, .officehours {flex-grow:1;}
+.officehours {padding: .5em;}
 .mycontainer { display:flex;}
 .myfixed { width:50%;}
 .myflex { vertical-align:middle; flex-grow:1;}
@@ -156,7 +167,7 @@ body.has-toolbar-collapsed:not(.has-sidebar):not(.has-sidebar-collapsed)
 
 /*Border Radius - Commented out
 .ui.basic.segment.header-wrapper {
-boder-top: thin solid white;
+border-top: thin solid white;
 -webkit-border-top-left-radius: 50px;
 -webkit-border-top-right-radius: 50px;
 -moz-border-radius-topleft: 50px;
@@ -198,8 +209,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a7caf0', end
 #page-document a {border-bottom: 1px solid black; display: inline-block;}
 #page-document a:hover, #page-document a:hover p {background:#006b96; color:white !important; border-radius:1em;}
 .navigation .ui.secondary.pointing.menu a.item:hover {background:#006b96 !important; color:white !important; border-radius:1em; }
-#footer a {display:inline-block; padding: 1em;}
-#footer a:hover {background:white; color:#006b96 !important; border-radius:1em;}
+
 .tile.view.mainslider .slick-slide a:hover {padding: 10px 20px !important;}
 .tile.view.mainslider .slick-slide a {padding: 10px 20px !important;}
 
